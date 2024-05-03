@@ -21,7 +21,9 @@ from django.urls import path, include
 
 urlpatterns = [
    path('admin/', admin.site.urls),
-   path('produtos/', include('produtos.urls'))
+   path('produtos/', include('produtos.urls')),
+
+
 ]
 admin.site.site_header = "GAN S/A"
 admin.site.site_title = "JFPB Admin Portal"
